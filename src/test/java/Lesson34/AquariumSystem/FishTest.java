@@ -7,6 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class FishTest {
 
+
     @Test
     void fish_shouldReturnCorrectName() {
         SimpleFish fish = new SimpleFish("Wogglie");

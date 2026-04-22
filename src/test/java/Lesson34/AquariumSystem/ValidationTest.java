@@ -10,6 +10,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class ValidationTest {
 
+
     @Test
     void waterChange_shouldFail_onEmptyNote() {
         assertThrows(ValidationException.class, () -> {
